@@ -1,0 +1,4 @@
+model,accuracy,precision_macro
+Logistic Regression,0.9333,0.9333
+K-Nearest Neighbors,0.9333,0.9444
+Decision Tree,0.9333,0.9333

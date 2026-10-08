@@ -3,6 +3,8 @@
 Classifies iris flowers into three species — **Setosa, Versicolor, Virginica** —
 based on petal and sepal measurements.
 
+![Pairplot of iris features by species](outputs/pairplot.png)
+
 ## Dataset
 The classic Iris dataset, loaded directly from `scikit-learn`
 (`sklearn.datasets.load_iris`) — 150 samples, 4 numeric features, already clean.

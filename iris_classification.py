@@ -4,6 +4,7 @@ Classify iris flowers into Setosa, Versicolor, Virginica using
 petal/sepal measurements.
 """
 
+import os
 import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
@@ -17,6 +18,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, precision_score, confusion_matrix, classification_report
+
+os.makedirs("outputs", exist_ok=True)
 
 # ---------------------------------------------------------------
 # 1. Load data
